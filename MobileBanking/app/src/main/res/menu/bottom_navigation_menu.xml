@@ -1,28 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
         android:id="@+id/home_navigation"
         android:icon="@drawable/icon_test"
-        android:title="Home" />
+        android:title="Home"
+        app:showAsAction="always"/>
 
     <item
         android:id="@+id/history_navigation"
         android:icon="@drawable/icon_test"
-        android:title="History" />
+        android:title="History"
+        app:showAsAction="always"/>
 
     <item
         android:id="@+id/qr_navigation"
         android:icon="@drawable/icon_test"
-        android:title="" />
+        android:title=""
+        app:showAsAction="always"/>
 
     <item
         android:id="@+id/card_navigation"
         android:icon="@drawable/icon_test"
-        android:title="Card" />
+        android:title="Card"
+        app:showAsAction="always"/>
 
     <item
         android:id="@+id/profile_navigation"
         android:icon="@drawable/icon_test"
-        android:title="Profile" />
+        android:title="Profile"
+        app:showAsAction="always"/>
 </menu>
