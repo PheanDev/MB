@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MobileBanking</string>
+
+    <!--    Main activity-->
+    <string name="home">Hello World</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/home_navigation">
+
+    <fragment
+        android:id="@+id/home_navigation"
+        android:name="com.phean.mbanking.ui.home.fragment.HomeFragment"
+        android:label="Mobile Banking"
+        tools:layout="@layout/home_fragment"
+        />
+    <fragment
+        android:id="@+id/history_navigation"
+        android:name="com.phean.mbanking.ui.history.fragment.HistoryFragment"
+        android:label="Mobile Banking"
+        tools:layout="@layout/history_fragment" />
+    <fragment
+        android:id="@+id/qr_navigation"
+        android:name="com.phean.mbanking.ui.qr.fragment.QRFragment"
+        android:label="Mobile Banking"
+        tools:layout="@layout/qr_fragment" />
+
+    <fragment
+        android:id="@+id/card_navigation"
+        android:name="com.phean.mbanking.ui.card.fragment.CardFragment"
+        android:label="Mobile Banking"
+        tools:layout="@layout/card_fragment" />
+    <fragment
+        android:id="@+id/profile_navigation"
+        android:name="com.phean.mbanking.ui.profile.fragment.ProfileFragment"
+        android:label="Mobile Banking"
+        tools:layout="@layout/profile_fragment" />
+
+</navigation>
